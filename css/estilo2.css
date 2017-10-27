@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'charis_silitalic';
+    src: url('../font/charissili-webfont.woff2') format('woff2'),
+         url('../font/charissili-webfont.woff') format('woff');
+         url('../font/CharisSILI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body
+{
+	background: #00008B;
+	color: #FFFFFF;
+	font-family: "charis_silitalic", Helvetica, Verdana; 
+	font-size: 2em; 
+}
+
+h1{
+	color: 	#FFD700;
+	margin: 0.25em auto;
+	text-align: center; 
+	text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
+} 
+
+header, nav{
+	background: #FFFFFF;
+	border-radius: 0.5em;
+	margin: 0.5em auto;
+	max-width: 960px;
+	padding: 0.25em;
+	text-align: center;
+}
+
+section #contenedor{
+	margin: 0.5em auto;
+	max-width: 960px;
+	padding: 0;
+	background: #FFFFFF;
+}
+
+section #principal, aside{
+	background: #1E6381;
+	border-radius: 0.5em;
+	display: inline-block;
+	margin: 0.2em auto;
+	max-width: 500px;
+	min-height: 200px;
+	vertical-align: top;
+	width: 65%;
+	}
+
+	article{
+		background: #011E30;
+		border-radius: 0.5em;
+		min-height: 140px;
+		padding: 0.25em;
+	}
+
+	footer{
+	background: #FFFFFF;
+	border-radius: 0.5em;
+	margin: 0.5em auto;
+	max-width: 960px;
+	padding: 0.25em;
+	text-align: center;
+	color: 	#0000CD
+	}
+	
+	aside{
+		width: 30%;
+	}
