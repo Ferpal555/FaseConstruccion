@@ -27,7 +27,7 @@ h1{
 	text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
 } 
 
-header, footer {
+header {
 	background: #1E6381;
 	border-radius: 0.5em
 	margin: 0.5em auto;
@@ -36,7 +36,6 @@ header, footer {
 }
 
 nav{
-
 	background: #00FF00;
 	border-radius: 0.5em
 	margin: 0.5em auto;
@@ -45,8 +44,10 @@ nav{
 	color: #FF0000;
 }
 
-ul{
-	color: 	#0000CD;
+a{
+	color:#0000FF;
+	text-align: center;
+	text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
 }
 
 section #contenedor{
@@ -73,6 +74,12 @@ h2{
 	text-align: center; 
 	text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
 } 
+
+h3{
+	color: #00FF00;
+	text-align: right; 
+}
+
 	article{
 		background: #011E30;
 		border-radius: 0.5em;
@@ -81,10 +88,24 @@ h2{
 		color: #FFFFFF;
 	}
 
-a{
-	color:#06FEFF;
+footer{
+	background: #FFFFFF;
+	border-radius: 0.5em;
+	margin: 0.5em auto;
+	max-width: 1300px;
+	padding: 0,25em;
 	text-align: center;
-	text-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
+	color: #0000CD;
+	}
+}
+
+#tab {
+    position: absolute;
+    width: 130px;
+    height: 20px;
+    top: 35px;
+    left: 25px;
+    cursor: pointer;
 }
 
 	aside{

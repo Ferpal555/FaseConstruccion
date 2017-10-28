@@ -55,20 +55,25 @@ section #principal, aside{
 	}
 
 	article{
-		background: #011E30;
-		border-radius: 0.5em;
-		min-height: 140px;
-		padding: 0.25em;
+	background: #011E30;
+	border-radius: 0.5em;
+	min-height: 140px;
+	padding: 0.25em;
+	color: #FFD700;
+	}
+
+	h3{
+		color: #00FF00;
 	}
 
 	footer{
 	background: #FFFFFF;
 	border-radius: 0.5em;
 	margin: 0.5em auto;
-	max-width: 960px;
-	padding: 0.25em;
+	max-width: 1300px;
+	padding: 0,25em;
 	text-align: center;
-	color: 	#0000CD
+	color: #0000CD;
 	}
 	
 	aside{
